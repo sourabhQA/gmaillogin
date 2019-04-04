@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-04-04T09:46:02Z" name="Default suite" finished-at="2019-04-04T09:46:26Z" duration-ms="23985">
+  <suite started-at="2019-04-04T11:25:51Z" name="Default suite" finished-at="2019-04-04T11:26:26Z" duration-ms="34120">
     <groups>
     </groups>
-    <test started-at="2019-04-04T09:46:02Z" name="Default test" finished-at="2019-04-04T09:46:26Z" duration-ms="23985">
+    <test started-at="2019-04-04T11:25:51Z" name="Default test" finished-at="2019-04-04T11:26:26Z" duration-ms="34120">
       <class name="GmailTesting.Gmail.Gmaillogin">
-        <test-method signature="runGmailTest()[pri:0, instance:GmailTesting.Gmail.Gmaillogin@69453e37]" started-at="2019-04-04T09:46:02Z" name="runGmailTest" finished-at="2019-04-04T09:46:26Z" duration-ms="23963" status="FAIL">
+        <test-method signature="runGmailTest()[pri:0, instance:GmailTesting.Gmail.Gmaillogin@69453e37]" started-at="2019-04-04T11:25:51Z" name="runGmailTest" finished-at="2019-04-04T11:26:26Z" duration-ms="34096" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Unable to locate element: //textarea[@id=':tn' and @rows ='1']
+              <![CDATA[Unable to locate element: body.aAU:nth-child(2) div.dw:nth-child(37) div.nH div.nH div.no div.nH.nn:nth-child(3) div.no div.nH.nn:nth-child(1) div.AD div.nH div.nH.Hd div.nH:nth-child(3) div.aaZ div.M9 div.aoI:nth-child(4) table.aoP.aoC:nth-child(2) td.I5 table.iN:nth-child(4) td.HE div.aDg div.aDj.aDn div.aDh table.IZ tr.btC td.gU.az5:nth-child(5) div.J-J5-Ji.btx div.J-J5-Ji.bty:nth-child(1) div.J-JN-M-I.J-J5-Ji.Xv.L3.T-I-ax7.T-I > div.J-J5-Ji.J-JN-M-I-JG:nth-child(2)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'LAPTOP-OPDRACTK', ip: '192.168.1.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 65.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 30100, moz:profile: C:\Users\Saurabh bhandari\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: d4abcd7a-4458-442d-98cb-0769337e978b
-*** Element info: {Using=xpath, value=//textarea[@id=':tn' and @rows ='1']}]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 65.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 32216, moz:profile: C:\Users\Saurabh bhandari\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 19c65e90-d038-40af-a3ee-151d4d7d4e6f
+*** Element info: {Using=css selector, value=body.aAU:nth-child(2) div.dw:nth-child(37) div.nH div.nH div.no div.nH.nn:nth-child(3) div.no div.nH.nn:nth-child(1) div.AD div.nH div.nH.Hd div.nH:nth-child(3) div.aaZ div.M9 div.aoI:nth-child(4) table.aoP.aoC:nth-child(2) td.I5 table.iN:nth-child(4) td.HE div.aDg div.aDj.aDn div.aDh table.IZ tr.btC td.gU.az5:nth-child(5) div.J-J5-Ji.btx div.J-J5-Ji.bty:nth-child(1) div.J-JN-M-I.J-J5-Ji.Xv.L3.T-I-ax7.T-I > div.J-J5-Ji.J-JN-M-I-JG:nth-child(2)}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //textarea[@id=':tn' and @rows ='1']
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: body.aAU:nth-child(2) div.dw:nth-child(37) div.nH div.nH div.no div.nH.nn:nth-child(3) div.no div.nH.nn:nth-child(1) div.AD div.nH div.nH.Hd div.nH:nth-child(3) div.aaZ div.M9 div.aoI:nth-child(4) table.aoP.aoC:nth-child(2) td.I5 table.iN:nth-child(4) td.HE div.aDg div.aDj.aDn div.aDh table.IZ tr.btC td.gU.az5:nth-child(5) div.J-J5-Ji.btx div.J-J5-Ji.bty:nth-child(1) div.J-JN-M-I.J-J5-Ji.Xv.L3.T-I-ax7.T-I > div.J-J5-Ji.J-JN-M-I-JG:nth-child(2)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'LAPTOP-OPDRACTK', ip: '192.168.1.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 65.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 30100, moz:profile: C:\Users\Saurabh bhandari\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: d4abcd7a-4458-442d-98cb-0769337e978b
-*** Element info: {Using=xpath, value=//textarea[@id=':tn' and @rows ='1']}
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 65.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 32216, moz:profile: C:\Users\Saurabh bhandari\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 19c65e90-d038-40af-a3ee-151d4d7d4e6f
+*** Element info: {Using=css selector, value=body.aAU:nth-child(2) div.dw:nth-child(37) div.nH div.nH div.no div.nH.nn:nth-child(3) div.no div.nH.nn:nth-child(1) div.AD div.nH div.nH.Hd div.nH:nth-child(3) div.aaZ div.M9 div.aoI:nth-child(4) table.aoP.aoC:nth-child(2) td.I5 table.iN:nth-child(4) td.HE div.aDg div.aDj.aDn div.aDh table.IZ tr.btC td.gU.az5:nth-child(5) div.J-J5-Ji.btx div.J-J5-Ji.bty:nth-child(1) div.J-JN-M-I.J-J5-Ji.Xv.L3.T-I-ax7.T-I > div.J-J5-Ji.J-JN-M-I-JG:nth-child(2)}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -39,10 +39,10 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:416)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-at GmailTesting.Gmail.Gmaillogin.runGmailTest(Gmaillogin.java:37)
+at GmailTesting.Gmail.Gmaillogin.runGmailTest(Gmaillogin.java:48)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
