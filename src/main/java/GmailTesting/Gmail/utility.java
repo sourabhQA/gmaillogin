@@ -14,14 +14,24 @@ public class utility {
 	
 	
 	
-	public static WebElement  wait(WebElement element ,WebDriver driver) {
-		WebDriverWait wait = new WebDriverWait(driver, 20);
-		wait.until(ExpectedConditions.elementToBeClickable(element));
-		System.out.println(element.isDisplayed());
-		return element;
-		
-		
+	public static void sendkeys(WebElement element ,WebDriver driver,int timeout,String data) {
+		WebDriverWait wait = new WebDriverWait(driver, timeout);
+		wait.until(ExpectedConditions.visibilityOf(element));
+		element.sendKeys(data);
+	
 		
 	}
 
+	public static void click(WebElement element ,WebDriver driver,int timeout) {
+		WebDriverWait wait = new WebDriverWait(driver, timeout);
+		wait.until(ExpectedConditions.elementToBeClickable(element));
+		element.click();
+		
+	}
+
+	
+	
+	
+	
+	
 }
